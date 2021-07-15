@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Home Section*/
+/* Navbar CSS Start */
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        height: 50px;
+    }
+
+    .navbar-brand {
+        position: relative;
+        left: 13%;
+        font-size: 35px;
+        color: white;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .navbar-brand:hover {
+        color: white;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-items {
+        position: absolute;
+        right: 10%;
+    }
+
+    .nav-item {
+        margin: 5px;
+    }
+
+    .nav-item a {
+        color: white;
+    }
+
+    .nav-item a:hover,
+    .nav-item a:focus {
+        color: rgb(255, 255, 109);
+    }
+   
+
+    .carousel {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+
+    .banner {
+        background-size: cover;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        opacity: 0.7;
+    }
+
+    .container{
+        padding: 200px 50px;
+
+    }
+
+    .carousel-indicators {
+        justify-content: left;
+    }
+
+    .carousel-slide{
+        text-align: center;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 8px;
+        height: 7px;
+        border-radius: 50%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        visibility: hidden;
+    }
+
+    .homebtn{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        padding: 10px 25px;
+        font-size: 17px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .homebtn:hover{
+        border: 1px solid black;
+        background: rgb(226, 165, 165);
+        transition: 1s;
+    }
+
+    #image_3{
+        color: white;
+    }
+
+    
+    .homebtn3{
+        display: inline-block;
+        text-decoration: none;
+        color:white;
+        border: 1px solid white;
+        padding: 10px 25px;
+        font-size: 17px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .homebtn3:hover{
+        border: 1px solid black;
+        background: rgb(226, 165, 165);
+        transition: 1s;
+    }
+
+
+    /* Carosel CSS end */
+
+/*Home Section Ends*/
+
+
+/*Intro */
+.intro{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+.intro-h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-col{
+    flex-basis: 30%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.type-name{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.type-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.GK{
+    height: 324px;
+    width: 300px;
+}
+.OWK{
+    width: 300px;
+    height: 324px;
+}
+.USK{
+    width: 300px;
+    height: 324px;
+}
+
+.intro .btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    border: 1px solid brown;
+    padding: 10px 25px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.intro .btn2:hover{
+    border: 1px solid brown;
+    background: rgb(226, 165, 165);
+    transition: 1s;
+}
+/*Intro Ends*/
+
+
+
+/* PROJECT SECTION*/
+.project{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100;
+    position: relative;
+}
+
+.projectH{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.project-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0%;  
+}
+
+.project-col{
+    flex-basis: 30%;
+    background: rgb(179, 179, 162);
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.project-col:hover{
+    background: rgb(238, 240, 121);
+}
+
+.project-img{
+    width: 380px;
+    height: 330px;
+}
+
+.project-name{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.project .btn3{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding: 10px 25px;
+    font-size: 17px;
+    background: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.project .btn3:hover{
+    color: white;
+    background: rgb(64, 64, 134);
+    transition: 0.5s;
+}
+/*Project Section Ends*/
+
+
+
+/*Pricing Table*/
+.pricing{
+    /* width: 50%; */
+    margin: auto;
+    text-align: center;
+    height: 550px;
+    padding: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.pricingH{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.pricing-row{
+    background: #eee;
+    width: 900px;
+    margin: 5% auto;
+}
+
+.pricing-col{
+    width: 33%;
+    background: #262626;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+    position: relative;
+}
+
+.price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+.about-plan{
+    margin-top: 10%;
+}
+
+.pricing-col h2{
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+}
+
+.price h2{
+    font-size: 40px;
+    color: #fff;
+}
+
+.about-plan h4{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+
+.pricing-col:hover{
+    background: #da4357;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    color: #fff;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.pricing-col:hover .price{
+    border-color: #fff;
+}
+
+.pricing .pricing-col a{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10% auto;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: #da4357;
+    padding: 10px;
+}
+
+.pricing .pricing-col:hover a{
+    background: #262626;
+    color: #fff;
+}
+/*Pricing Table Ends*/
+
+
+
+/*Video Project start*/
+.video-project {
+    width: 100%;
+    height: 540px;
+    background-color: rgb(144, 175, 160);
+    padding-top: 20px;
+}
+
+.video-project h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.video-carousel {
+    width: 100%;
+    height: 360px;
+}
+
+.carousel-cell {
+    width: 50%;
+    height: 310px;
+    margin-top: 20px;
+    background-color: rgb(144, 175, 160);
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+/*Video Project End
+
+
+
+/*Our Team Section*/
+.team{
+    margin: auto;
+    text-align: center;
+    height: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.teamH{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+   /* / margin-bottom: 30px; */
+    color: black;
+    padding-top: 20px;
+}
+
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    border-radius: 50%;
+    font-size: 15px;
+    color: #17bebb;
+    border: 1px solid #17bebb;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #17bebb;
+    color: #fff;
+}
+
+.team-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+.post{
+    padding-bottom: 10px;
+}
+.team .container{
+    padding-top: 50px;
+}
+
+/*Our team ends*/
+
+
+/*Signup start*/
+.newsletter{
+    width: 100%;
+    background-image: url(images/newsletter_background.jpg);
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    height: 270px;
+    position: relative;
+}
+
+.newsletterH{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.newsletter input{
+    height: 50px;
+    width: 290px;
+}
+
+.newsletter .signup{
+    display: inline-block;
+    text-decoration: none;
+    color:  white;
+    border: 1px solid black;
+    padding: 10px 25px;
+    font-size: 17px;
+    background: rgb(64, 64, 134);
+    position: relative;
+    cursor: pointer;
+}
+
+/*Signup Ends*/
+
+
+
+
+/*Blog Start*/
+.blog{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    height: 550px;
+}
+.blogH{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.blog p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.blog-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.blog h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.blog-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.blog .Blog-button{
+    display: inline-block;
+    text-decoration: none;
+    color:  white;
+    border: 1px solid black;
+    padding: 10px 25px;
+    font-size: 17px;
+    background: rgb(64, 64, 134);
+    position: relative;
+    cursor: pointer;   
+}
+
+/*Blog Ends*/
+
+
+/*Map Starts*/
+.contact-map {
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+
+.map {
+    width: 50%;
+    height: 650px;
+}
+
+.contact {
+    width: 50%;
+    height: 650px;
+    background-color: rgb(143, 238, 99);
+    padding: 50px;
+}
+
+.contact h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact-form .text {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.contact textarea {
+    width: 300px;
+    height: 120px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.contact .contact-btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: rgb(72, 139, 141);
+    color: white;
+}
+
+/*Map Ends*/
+
+
+
+
+/*Footer CSS starts*/
+footer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px 40px 40px 40px;
+}
+
+.footer-container h3 {
+    margin-bottom: 30px;
+}
+
+.address {
+    text-align: center;
+}
+
+.follow {
+    text-align: center;
+}
+
+.follow-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.footer-container img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.1s ease-in-out;
+}
+
+.footer-container img:hover {
+    transform: scale(1.1);
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.copyright {
+    position: absolute;
+    width: 100%;
+    height: 27px;
+    text-align: center;
+    background-color: rgb(163, 159, 163);
+    bottom: 0;
+}
+
+/*Footer CSS ends*/
